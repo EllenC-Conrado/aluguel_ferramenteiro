@@ -1,0 +1,22 @@
+/*Main Sobre*/
+main{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main h1{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}

@@ -1,0 +1,77 @@
+/* Main Login */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+ .login-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+.user-icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+ .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .login-form input#password {
+    margin-bottom: 0px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #444;
+  }
+
+  .login-form a{
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .login-form a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+

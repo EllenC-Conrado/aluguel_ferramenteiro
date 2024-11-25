@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between; /* Espaço entre logo, navegação e login */
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+   border-bottom: 1px solid #ddd;
+   width: 100%;
+}
+
+/* Logo*/
+header .logo {
+    max-width: 300px; /* Ajuste o tamanho do logo */
+}
+
+/* Navegação principal (secao) */
+nav#secao {
+    display: flex;
+    gap: 30px; /* Espaçamento entre os links */
+    justify-content: center; /* Centraliza os links */
+    flex: 1; /* Ocupar o espaço restante */
+}
+
+nav#secao a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav#secao a:hover {
+    color: #007BFF; /* Cor de destaque ao passar o mouse */
+}
+
+/* Navegação de login */
+div#login {
+    display: flex;
+    justify-content: flex-end; /* Alinha o link de "Entrar" à direita */
+    align-items: center;
+}
+
+div#login a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+div#login a:hover {
+    color: #007BFF;
+}
+
+div#login .login-icon {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+  
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;    
+}
+
+footer span {
+    display: block;
+    margin: 5px 0;
+}
+
+

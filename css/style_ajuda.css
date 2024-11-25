@@ -1,0 +1,95 @@
+/* Main Ajuda*/
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Alinhar título (h1) à esquerda e info à direita */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+main h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+/* Lista de Informações */
+ul.info {   
+    max-width: 250px; 
+}
+
+ul.info li {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+    color: #666;
+    white-space: normal;
+    word-wrap: break-word; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #eee;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.info {
+    font-size: 14px;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+/* Contêiner do botão de envio */
+.form-group-submit {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-enviar {
+    padding: 10px 20px;
+    background-color: #ddd;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #bbb;
+}
